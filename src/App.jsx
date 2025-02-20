@@ -7,6 +7,8 @@ import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 const personData = JSON.parse(userData);
+const friendsList = JSON.parse(friends);
+const transactionsInfo = JSON.parse(transactions);
 
 function App() {
   return (
@@ -18,8 +20,8 @@ function App() {
         image={personData.avatar}
         stats={personData.stats}
       />
-      <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />
+      <FriendList friends={friendsList} />
+      <TransactionHistory items={transactionsInfo} />
     </>
   );
 }
