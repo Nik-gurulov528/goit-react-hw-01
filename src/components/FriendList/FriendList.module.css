@@ -1,0 +1,11 @@
+.friendsCollection {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.friendItem {
+  border: solid 2px #000000;
+  border-radius: 5px;
+  padding: 8px 12px;
+}

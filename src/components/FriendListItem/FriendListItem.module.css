@@ -1,0 +1,15 @@
+.friendCard {
+  width: 53px;
+}
+
+.friendName {
+  font-weight: 700;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
